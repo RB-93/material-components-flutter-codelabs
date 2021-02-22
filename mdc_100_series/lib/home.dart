@@ -33,6 +33,25 @@ class HomePage extends StatelessWidget {
             print('Menu button');
           },
         ),
+        actions: <Widget>[
+          IconButton(
+            icon: Icon(
+              Icons.search,
+              semanticLabel: 'search',
+            ),
+            onPressed: () {
+              print('Search button');
+            },
+          ),
+          IconButton(
+              icon: Icon(
+                Icons.tune,
+                semanticLabel: 'filter',
+              ),
+              onPressed: () {
+                print('Filter button');
+              }),
+        ],
         title: Text('SHRINE'),
       ),
       // TODO: Add a grid view (102)
