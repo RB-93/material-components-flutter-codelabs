@@ -47,7 +47,7 @@ class _LoginPageState extends State<LoginPage> {
             ),
             // spacer
             SizedBox(
-              height: 120.0,
+              height: 12.0,
             ),
             // [Password]
             TextField(
